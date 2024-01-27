@@ -1,0 +1,34 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.producto{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(211, 211, 211);
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.img-active{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.img-hidden{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+    display: none;
+    transition: opacity 0.5s ease-in-out;
+}
